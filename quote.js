@@ -25,8 +25,6 @@ var quotes = [
     '„I know everything. There’s nothing that I don’t know”',
     // ougi
     '„I don’t know anything. You’re the one that knows everything”',
-    // bakemonogatari
-    '„Oddities are the world itself. They’re linked to the world, unlike living beings.<br>Science alone cannot shed light upon them, as there will always be people who’ll be afraid of vampires.<br>Although all forms of darkness could be lit up, darkness will never cease to exist.”',
 ]
 
 function setTheme() {
@@ -53,9 +51,6 @@ function setTheme() {
     }
     else if (random == 18) {
         setMascot("ougi", 1);
-    }
-    else if (random == 19) {
-        setMascot("bakemonogatari", 1);
     }
 }
 
