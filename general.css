@@ -1,8 +1,5 @@
 html {
-    background: linear-gradient(225deg, #2d1f28, #2b1f30);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #1f1f28;
     font-size: 0;
 }
 body {
@@ -11,8 +8,8 @@ body {
 }
 
 .container {
-    background: linear-gradient(#1f1628, #2c1f28), 
-                linear-gradient(to right, #a04040, #603060);
+    background: linear-gradient(#1a1a20, #1a1a20), 
+                linear-gradient(to right, #402030, #302040);
     background-origin: padding-box, border-box;
     background-repeat: no-repeat; /* this is important */
     border: 5px solid transparent;
@@ -74,18 +71,21 @@ ul {
 
 .grid-item {
     position: relative;
-    background-color: green;
     font-size: 18px;
     padding: 0;
     width: 135px;
     height: 40px;
     line-height: 40px;
-    background: linear-gradient(45deg, #381f2f, #342840), 
-                linear-gradient(to right, #603048, #502040);
-    background-origin: padding-box, border-box;
+    background: linear-gradient(45deg, #381f2f, #342840);
     background-repeat: no-repeat; /* this is important */
-    border: 2px solid transparent;
+    border: 2px solid #533048;
     z-index: 1;
+    box-shadow: 0 0 0 #533048;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.grid-item:hover {
+    box-shadow: 0 0 8px 6px #533048;
 }
 
 .grid-item::before {
@@ -95,10 +95,10 @@ ul {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(225deg, #542f47, #503d62);
+    background: linear-gradient(225deg, #542f47, #523149);
     z-index: -1;
     opacity: 0;
-    transition: opacity 0.3s linear;
+    transition: opacity 0.2s linear;
 }
 
 .grid-item:hover::before {
