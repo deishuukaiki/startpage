@@ -76,9 +76,9 @@ ul {
     width: 135px;
     height: 40px;
     line-height: 40px;
-    background: linear-gradient(45deg, #381f2f, #342840);
     background-repeat: no-repeat; /* this is important */
     border: 2px solid #533048;
+    background-color: #533048;
     z-index: 1;
     box-shadow: 0 0 0 #533048;
     transition: box-shadow 0.2s ease-in;
@@ -95,14 +95,14 @@ ul {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(225deg, #542f47, #523149);
+    background: linear-gradient(45deg, #381f2f, #342840);
     z-index: -1;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.2s linear;
 }
 
 .grid-item:hover::before {
-    opacity: 1;
+    opacity: 0;
 }
 
 .a1 { grid-area: a1; }
