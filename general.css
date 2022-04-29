@@ -85,7 +85,7 @@ ul {
 }
 
 .grid-item:hover {
-    box-shadow: 0 0 8px 6px #533048;
+    box-shadow: 0 0 8px 9px #533048;
 }
 
 .grid-item::before {
