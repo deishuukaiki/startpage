@@ -54,14 +54,15 @@ h1{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 60px;
+    bottom: 25px;
 }
 
 .grid {
     display: inline-grid;
     gap: 15px;
     grid-template-areas: 'a1 a2 a3 a4'
-                        'a5 a6 a7 a8';
+                        'a5 a6 a7 a8'
+                        'a9 a10 a11 a12';
 }
 
 ul {
@@ -113,6 +114,10 @@ ul {
 .a6 { grid-area: a6; }
 .a7 { grid-area: a7; }
 .a8 { grid-area: a8; }
+.a9 { grid-area: a9; }
+.a10 { grid-area: a10; }
+.a11 { grid-area: a11; }
+.a12 { grid-area: a12; }
 
 a {
     display: block;
