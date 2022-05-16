@@ -82,7 +82,7 @@ ul {
     background-color: #533048;
     z-index: 1;
     box-shadow: 0 0 0 #533048;
-    transition: box-shadow 0.2s ease-in, font-size 0.1s 0.1s, text-shadow 0.1s 0.1s;
+    transition: box-shadow 0.2s ease-in, font-size 0.1s 0.2s, text-shadow 0.1s 0.2s;
 }
 
 .grid-item:hover {
@@ -101,11 +101,12 @@ ul {
     background: linear-gradient(45deg, #381f2f, #342840);
     z-index: -1;
     opacity: 1;
-    transition: opacity 0.1s linear;
+    transition: opacity 0.1s 0.1s linear;
 }
 
 .grid-item:hover::before {
     opacity: 0;
+    transition: opacity 0.1s linear;
 }
 
 .a1 { grid-area: a1; }
