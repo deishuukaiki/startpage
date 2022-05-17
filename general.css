@@ -82,11 +82,11 @@ ul {
     background-color: #533048;
     z-index: 1;
     box-shadow: 0 0 0 #533048;
-    transition: box-shadow 0.2s ease-in, font-size 0.1s 0.2s, text-shadow 0.1s 0.2s;
+    transition: box-shadow 0.15s ease-in, font-size 0.1s, text-shadow 0.1s;
 }
 
 .grid-item:hover {
-    box-shadow: 0 0 8px 9px #533048;
+    box-shadow: 0 0 6px 6px #533048;
     font-size: 20px;
     text-shadow: 0.5px 0.5px 0.5px lightgrey, -0.5px 0.5px 0.5px lightgrey;
 }
